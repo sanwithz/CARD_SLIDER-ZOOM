@@ -1,0 +1,281 @@
+<!-- /***************************************************************************/
+/** ###### Developed by: Mr. Sittichart Sitti                          ######## */
+/** ###### Email: I@sittichart.com                                     ######## */
+/** ###### Website: https://www.sanwithz.com/                          ######## */
+/** ###### สนับสนุนค่ากาแฟ : https://www.bit.ly/sanzcoffee                ######## */
+/** ###### Credit : CodingLabYT: https://www.youtube.com/@CodingLabYT  ######## */
+/****************************************************************************/ -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <base target="_top">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<!-- ===== Link Swiper's CSS ===== -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+<!-- ===== Fontawesome CDN Link ===== -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+
+
+
+<!-- ===== Bootstrap CDN ===== -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+
+<!-- ===== CSS ===== -->
+<?!=include('css')?>
+
+<title>Card with Sliding Feature</title>
+</head>
+
+<body>
+
+  <section>
+
+    <div class="swiper mySwiper container">
+      <div class="swiper-wrapper content">
+
+<!-------  CARD 1  ------->
+
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+              <img src="<?!=getData()[0][5]?>" alt="">
+            </div>
+
+            <div class="media-icons">
+              <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+              <i class="fa-brands fa-line"></i>
+              <i class="fa-solid fa-envelope"></i>
+            </div>
+
+            <div class="name-profession">
+              <span class="name"><?!=getData()[0][0]?></span>
+              <span class="profession">ชื่อเล่น : <?!=getData()[0][1]?></span>
+            </div>
+
+            <div class="rating">
+              <span class="quote">คติ : <?!=getData()[0][2]?></span>
+            </div>
+
+            <div class="button">
+              <button class="classroom"><?!=getData()[0][3]?></button>
+              <button class="number"><?!=getData()[0][4]?></button>
+            </div>
+          </div>
+        </div>
+
+
+
+<!-------  CARD 2  ------->
+
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+              <img src="<?!=getData()[1][5]?>" alt="">
+            </div>
+
+            <div class="media-icons">
+              <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+              <i class="fa-brands fa-line"></i>
+              <i class="fa-solid fa-envelope"></i>
+            </div>
+
+            <div class="name-profession">
+              <span class="name"><?!=getData()[1][0]?></span>
+              <span class="profession">ชื่อเล่น : <?!=getData()[1][1]?></span>
+            </div>
+
+            <div class="rating">
+              <span class="quote">คติ : <?!=getData()[1][2]?></span>
+            </div>
+
+            <div class="button">
+              <button class="classroom"><?!=getData()[1][3]?></button>
+              <button class="number"><?!=getData()[1][4]?></button>
+            </div>
+          </div>
+        </div>
+
+ <!-------  CARD 3  ------->
+
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+              <img src="<?!=getData()[2][5]?>" alt="">
+            </div>
+
+            <div class="media-icons">
+              <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+              <i class="fa-brands fa-line"></i>
+              <i class="fa-solid fa-envelope"></i>
+            </div>
+
+            <div class="name-profession">
+              <span class="name"><?!=getData()[2][0]?></span>
+              <span class="profession">ชื่อเล่น : <?!=getData()[2][1]?></span>
+            </div>
+
+            <div class="rating">
+              <span class="quote">คติ : <?!=getData()[2][2]?></span>
+            </div>
+
+            <div class="button">
+              <button class="classroom"><?!=getData()[2][3]?></button>
+              <button class="number"><?!=getData()[2][4]?></button>
+            </div>
+          </div>
+        </div>
+
+<!-------  CARD 4  ------->
+
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+              <img src="https://github.com/sanwithz/CardEx/blob/main/images/img4.jpg?raw=true" alt="">
+            </div>
+
+            <div class="media-icons">
+              <i class="fab fa-facebook"></i>
+              <i class="fa-brands fa-line"></i>
+              <i class="fa-solid fa-envelope"></i>
+            </div>
+
+            <div class="name-profession">
+              <span class="name">Someone Name</span>
+              <span class="profession">Web Developer</span>
+            </div>
+
+            <div class="rating">
+              <span class="quote">คติ : XXX </span>
+            </div>
+
+            <div class="button">
+              <button class="classroom">YYY</button>
+              <button class="number">ZZZ</button>
+            </div>
+          </div>
+        </div>
+
+<!-------  CARD 5  ------->
+
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+              <img src="https://github.com/sanwithz/CardEx/blob/main/images/img5.jpg?raw=true" alt="">
+            </div>
+
+            <div class="media-icons">
+              <i class="fab fa-facebook"></i>
+              <i class="fa-brands fa-line"></i>
+              <i class="fa-solid fa-envelope"></i>
+            </div>
+
+            <div class="name-profession">
+              <span class="name">Someone Name</span>
+              <span class="profession">Web Developer</span>
+            </div>
+
+            <div class="rating">
+              <span class="quote">คติ : XXX </span>
+            </div>
+
+            <div class="button">
+              <button class="classroom">YYY</button>
+              <button class="number">ZZZ</button>
+            </div>
+          </div>
+        </div>
+
+<!-------  CARD 6  ------->
+
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+              <img src="https://github.com/sanwithz/CardEx/blob/main/images/img6.jpg?raw=true" alt="">
+            </div>
+
+            <div class="media-icons">
+              <i class="fab fa-facebook"></i>
+              <i class="fa-brands fa-line"></i>
+              <i class="fa-solid fa-envelope"></i>
+            </div>
+
+            <div class="name-profession">
+              <span class="name">Someone Name</span>
+              <span class="profession">Web Developer</span>
+            </div>
+
+            <div class="rating">
+              <span class="quote">คติ : XXX </span>
+            </div>
+
+            <div class="button">
+              <button class="classroom">YYY</button>
+              <button class="number">ZZZ</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- ---- HOMEWORK HERE ---- -->
+
+
+      </div>
+    </div> 
+
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+    <br/>
+
+
+<!-- Footer Credit-->
+<hr/>
+<center>
+<br/><p style="margin-top: 0px;margin-bottom: 0px;">© 2022 Copyright : พัฒนาโดยครูสิทธิชาติ สิทธิ</p><br/>
+</center>
+<!-- End-->
+
+
+
+  </section>
+
+
+
+
+
+
+  <!-- Swiper JS -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      slidesPerGroup: 3,
+      loop: true,
+      loopFillGroupWithBlank: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+
+
+
+
+</body>
+</html>
